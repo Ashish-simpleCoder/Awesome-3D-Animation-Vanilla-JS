@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    border:none;
+    outline:none;
+}
+body{
+    background:linear-gradient(120deg,rgb(7, 104, 168),rgb(84, 87, 90));
+    font-family: sans-serif;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    perspective: 800px;
+}
+html{
+    font-size:62.5%;
+}

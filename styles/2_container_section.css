@@ -1,0 +1,81 @@
+.container {
+    width: 50%;
+    height: 90vh;
+    min-width: 500px;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    perspective: 800px;
+}
+.card {
+    /* border: 1px solid rgb(0, 26, 255); */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 80vh;
+    background: linear-gradient(120deg, red, blue);
+    border-radius: 3rem;
+    transform-style: preserve-3d;
+}
+.image-Section{
+    transition: all 0.5s ease;
+
+}
+img {
+    width: 200px;
+}
+.title-Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(235, 235, 235);
+    transition: all 0.5s ease;
+    flex-direction: column;
+}
+h1 {
+    font-weight: 300;
+    font-size: clamp(2rem, 2vw, 3.5rem);
+}
+h3 {
+    font-weight: 300;
+    font-size: clamp(1.7rem, 1.5vw, 2.5rem);
+}
+.sizes {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+.sizes button {
+    border-radius: 0.5rem;
+    background-color: rgb(232, 228, 235);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 20%;
+    max-width: 10rem;
+    min-width: 7rem;
+    height: 2.5rem;
+}
+.sizes button:hover {
+    background-color: aqua;
+}
+.purchase {
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.purchase-btn {
+    border-radius: 1rem;
+    width: 50%;
+    height: 3rem;
+    background: rgb(212, 8, 8);
+}
+.purchase-btn:hover {
+    background: green;
+    cursor: pointer;
+}
